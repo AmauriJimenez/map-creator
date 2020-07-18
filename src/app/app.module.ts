@@ -1,7 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+// import the DiagramMOdule for the Diagram component
+import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
+
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +13,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    DiagramModule
   ],
   providers: [],
   bootstrap: [AppComponent]

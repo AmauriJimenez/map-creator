@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "maps-creator"
+    }
+  },
+  "defaultProject": "maps-creator",
+  "cli": {
+    "analytics": "6a4a7958-1fa4-4168-9d7f-dd6e16927090"
+  }
 }
